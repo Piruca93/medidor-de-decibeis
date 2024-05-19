@@ -25,7 +25,7 @@ Vá para "Ferramentas" > "Porta" e selecione a porta COM que aparece com o nome 
 
 O sensor de som KY-037 é conectado ao microcontrolador NodeMCU ESP8266, que irá processar os dados dos níveis de som. Os cabos de alimentação do sensor de som são conectados às entradas de 3,3V e GND do NodeMCU, enquanto o sinal de saída do sensor é conectado ao pino analógico A0. Este sistema pode ser alimentado por uma fonte de 3,7V, adequada para a operação dos componentes eletrônicos envolvidos, ou através de um cabo USB direto de um computador.
 
-![Protótipo Montado](https://example.com/prototipo_image) <!-- Note: Replace with actual image URL -->
+![Protótipo Montado](![20240518_152536](https://github.com/Piruca93/medidor-de-decibeis/assets/119772189/b6f27c6a-f9d4-4030-93d0-35637a8af990)) <!-- Note: Replace with actual image URL -->
 *Figura 1: Protótipo completo montado, mostrando o NodeMCU, o sensor de som KY-037 e os jumpers conectados.*
 
 ## Configurando o MQTT Explorer
