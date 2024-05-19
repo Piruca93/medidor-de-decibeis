@@ -1,3 +1,35 @@
+
+# Medidor de Níveis de Som IoT
+
+Meu projeto IoT da Universidade Presbiteriana Mackenzie. O projeto foi desenvolvido em C++ utilizando a IDE Arduino.
+
+## Descrição
+
+Este projeto utiliza a placa NodeMCU V3 ESP8266 para monitorar níveis de som em ambientes urbanos, combinado com o sensor de som KY-037. A comunicação é feita via protocolo MQTT para transmissão de dados em tempo real para a ferramenta MQTT Explorer.
+
+## Instalação da IDE do Arduino
+
+### Baixar a IDE do Arduino:
+
+1. Acesse o site oficial do Arduino.
+2. Navegue até a seção de downloads e escolha a versão da IDE do Arduino compatível com seu sistema operacional (Windows, macOS ou Linux).
+
+### Instalar a IDE:
+
+- **Windows:** Execute o instalador baixado e siga as instruções na tela. Certifique-se de instalar todos os drivers necessários durante o processo de instalação.
+- **macOS:** Abra o arquivo .zip baixado e arraste o aplicativo Arduino para a pasta "Aplicativos".
+- **Linux:** Descompacte o arquivo baixado e execute o script de instalação.
+
+### Verificar a Instalação:
+
+Abra a IDE do Arduino para garantir que foi instalada corretamente.
+
+## Configurando o NodeMCU na IDE do Arduino
+
+### Adicionar o URL do Gerenciador de Placas para o ESP8266:
+
+1. Na IDE do Arduino, vá até "Arquivo" > "Preferências".
+2. No campo "URLs Adicionais de Gerenciadores de Placas", insira o seguinte URL para o pacote do ESP8266:
 3. Clique em "OK" para salvar.
 
 ### Instalar a Placa NodeMCU ESP8266:
